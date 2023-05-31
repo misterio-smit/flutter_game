@@ -3,9 +3,9 @@ import 'dart:isolate';
 bool _running = true;
 
 void mainLoop(SendPort sendPort) async {
-  final double _fps = 50;
-  final double _second = 1000;
-  final double _updateTime = _second / _fps;
+  const double _fps = 50;
+  const double _second = 1000;
+  const double _updateTime = _second / _fps;
   double _updates = 0;
 
   Stopwatch _loopWatch = Stopwatch();

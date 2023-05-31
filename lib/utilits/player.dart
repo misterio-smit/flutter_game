@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_game/entites/entity.dart';
 
 class Player extends Entity {
-  Player() : super("Player") {
+  Player() : super("player") {
     x = 50;
     y = 150;
   }

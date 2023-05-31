@@ -11,7 +11,7 @@ void main() {
     runApp(const MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Center(
-          child: Text('Game'),
+          child: Text('Game!'),
         )));
   });
 }
